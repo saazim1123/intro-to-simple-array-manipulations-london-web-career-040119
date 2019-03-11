@@ -4,9 +4,8 @@ def using_push(array, string)
 end 
 
 def using_unshift(array, string)
-  array = []
-  new_array = array.unshift(string)
-end 
+  updated_array = array.unshift(string)
+end
 
 def pop(array)
   array = []
