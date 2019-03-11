@@ -13,3 +13,8 @@ def pop(array)
   
  new_array = array.pop
 end
+
+def pop_with_args(array)
+  array.pop 
+  new_array = array.pop
+end 
