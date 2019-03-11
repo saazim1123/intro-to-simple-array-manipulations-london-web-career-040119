@@ -3,8 +3,10 @@ def using_push(array, string)
   array << string
 end 
 
+
+
 def using_unshift(array, string)
-  updated_array = array.unshift(string)
+  new_array = array.unshift(string)
 end
 
 def pop(array)
