@@ -5,7 +5,7 @@ end
 
 def using_unshift(array, string)
   array = []
-  array = array.unshift(string)
+  new_array = array.unshift(string)
 end 
 
 def pop(array)
