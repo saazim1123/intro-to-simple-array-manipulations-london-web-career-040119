@@ -9,7 +9,8 @@ def using_unshift(array, string)
   new_array = array.unshift(string)
 end
 
-def pop(array)
+def using_pop(array)
+  array = []
   array.pop
 end
 
